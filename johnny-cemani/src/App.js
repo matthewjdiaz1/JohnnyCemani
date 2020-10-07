@@ -1,23 +1,45 @@
 import React from 'react';
-import logo from './logo.svg';
-import { AppBar, Toolbar, IconButton, Typography, Button } from '@material-ui/core'
 import './App.css';
+import HeaderBar from './components/headerBar';
+
+import { useTheme, createMuiTheme, MuiThemeProvider } from "@material-ui/core/styles";
+// https://stackoverflow.com/questions/58168798/add-custom-theme-variable-object-to-createmuitheme
+const theme = createMuiTheme({
+  palette: {
+    primary: {
+      light: '#616161',
+      main: '#424242',
+      dark: '#212121',
+      contrastText: '#fff',
+    },
+    secondary: {
+      light: '#ff7961',
+      main: '#f44336',
+      dark: '#ba000d',
+      contrastText: '#000',
+    },
+  },
+  // spacing: 8,
+  typography: {
+    body1: {
+      fontFamily: "Comic Sans"
+    }
+  },
+  custom: {
+    myOwnComponent: {
+      margin: "10px 10px",
+      backgroundColor: "lightgreen"
+    }
+  }
+});
 
 function App() {
   return (
-    <div className="App">
-      <AppBar position="static">
-        <Toolbar>
-          {/* <IconButton edge="start" color="inherit" aria-label="menu">
-            <MenuIcon />
-          </IconButton> */}
-          <Typography variant="h6" >
-            Johnny Cemani
-          </Typography>
-          <Button color="inherit">Login</Button>
-        </Toolbar>
-      </AppBar>
-    </div>
+    <MuiThemeProvider theme={theme}>
+      <div className="App">
+        <HeaderBar />
+      </div>
+    </MuiThemeProvider>
   );
 }
 
