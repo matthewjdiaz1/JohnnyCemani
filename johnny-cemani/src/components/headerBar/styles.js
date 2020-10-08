@@ -1,29 +1,14 @@
 export default {
-  container: {
-
+  headerButton: {
+    padding: '5',
+    margin: '10',
   },
   img: {
-    height: '2em',
-    width: '2em',
-    // padding: 5,
-  },
-  menuButton: {
-    // justifyContent: 'right',
-  },
-  menuTitle: {
-
+    height: '40px',
+    width: '40px',
   },
   appBar: {
     backgroundColor: 'green',
     color: 'green',
   },
-  headerButton: {
-    padding: 5,
-    margin: 10,
-  },
-  toolbar: {
-    padding: 50,
-    margin: 50
-
-  }
 };

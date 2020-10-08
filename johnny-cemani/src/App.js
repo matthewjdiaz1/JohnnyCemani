@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import HeaderBar from './components/headerBar';
+import Main from './components/main';
 
 import { useTheme, createMuiTheme, MuiThemeProvider } from "@material-ui/core/styles";
 // https://stackoverflow.com/questions/58168798/add-custom-theme-variable-object-to-createmuitheme
@@ -19,7 +20,6 @@ const theme = createMuiTheme({
       contrastText: '#000',
     },
   },
-  // spacing: 8,
   typography: {
     body1: {
       fontFamily: "Comic Sans"
@@ -38,6 +38,7 @@ function App() {
     <MuiThemeProvider theme={theme}>
       <div className="App">
         <HeaderBar />
+        <Main />
       </div>
     </MuiThemeProvider>
   );
