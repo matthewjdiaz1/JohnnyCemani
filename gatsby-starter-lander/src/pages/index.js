@@ -19,7 +19,7 @@ export default () => (
             Johnny Cemani
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            The only things that are blacker than the chickens we provide are our eggs.
+            The only things blacker than the chickens we provide are our eggs.
           </p>
           <p className="mt-8 md:mt-12">
             {/* <Button size="lg">Get Started</Button> */}
@@ -64,7 +64,7 @@ export default () => (
           <div className="lg:pr-32 xl:pr-48">
             <h3 className="text-3xl font-semibold leading-tight">Chickens</h3>
             <p className="mt-8 text-xl font-light leading-relaxed">
-              Some info on chickens, but don't repeat from paragraph above. could also be blank.
+              Some info on chickens, but don't repeat from paragraph above. pix to the right. text could also be blank.
           </p>
           </div>
         }
