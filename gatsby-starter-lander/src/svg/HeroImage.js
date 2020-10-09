@@ -1,5 +1,6 @@
 import React from 'react';
-import image from '../images/transparentChicken.png'
+// import image from '../images/transparentChicken.png'
+import image from '../../public/transparentChicken.png';
 
 const HeroImage = () => (
   <div style={{

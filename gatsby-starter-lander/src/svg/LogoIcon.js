@@ -1,5 +1,6 @@
 import React from 'react';
-import logo from '../images/murderLogo.png';
+// import logo from '../images/murderLogo.png';
+import logo from '../../public/murderLogo.png';
 
 const LogoIcon = () => (
   <div>

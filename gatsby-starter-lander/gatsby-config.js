@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/johnnycemani",
   plugins: [
     {
       resolve: `gatsby-theme-codebushi`,
