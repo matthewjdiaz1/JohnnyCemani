@@ -22,8 +22,11 @@ const Header = () => (
         <AnchorLink className="px-4" href="#Eggs">
           Available Eggs
         </AnchorLink>
-        <AnchorLink className="px-4" href="#testimonials">
+        <AnchorLink className="px-4" href="#Testimonials">
           Testimonials
+        </AnchorLink>
+        <AnchorLink className="px-4" href="#Purchase">
+          Purchase
         </AnchorLink>
       </div>
       {/* <div className="hidden md:block">

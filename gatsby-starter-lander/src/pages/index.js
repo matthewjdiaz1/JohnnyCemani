@@ -19,7 +19,7 @@ export default () => (
             Johnny Cemani
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            The only things blacker than the chickens we provide are our eggs.
+            The only thing blacker than our chickens are our eggs.
           </p>
           <p className="mt-8 md:mt-12">
             {/* <Button size="lg">Get Started</Button> */}
@@ -39,8 +39,7 @@ export default () => (
             <Card className="mb-8">
               <p className="font-semibold text-xl">Available Chickens</p>
               <p className="mt-4">
-                We sell chickens, this is a paragraph about all the chickens we offer. An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer. An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
+                Our chickens are the shit. this is a paragraph about why our chickens are better than everyone. An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
                 velna vitae auctor integer.
               </p>
             </Card>
@@ -49,7 +48,9 @@ export default () => (
             <Card className="mb-8">
               <p className="font-semibold text-xl">Available Eggs</p>
               <p className="mt-4">
-                We also ell eggs. An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
+                We also sell eggs. An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
+                velna vitae auctor integer. An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
+                velna vitae auctor integer. An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
                 velna vitae auctor integer.
               </p>
             </Card>
@@ -64,7 +65,7 @@ export default () => (
           <div className="lg:pr-32 xl:pr-48">
             <h3 className="text-3xl font-semibold leading-tight">Chickens</h3>
             <p className="mt-8 text-xl font-light leading-relaxed">
-              Some info on chickens, but don't repeat from paragraph above. pix to the right. text could also be blank.
+              Some info on chickens, more focused on How to buy, buying options, how many are available, etc. don't repeat from paragraph above. pix to the right(over/under on mobile).
           </p>
           </div>
         }
@@ -77,7 +78,7 @@ export default () => (
           <div className="lg:pl-32 xl:pl-48">
             <h3 className="text-3xl font-semibold leading-tight">Eggs</h3>
             <p className="mt-8 text-xl font-light leading-relaxed">
-              Some info on Eggs, but don't repeat from paragraph above. could also be blank.
+              Some info on Eggs, but don't repeat from paragraph above. pix left(over/under on mobile).
           </p>
           </div>
         }
@@ -114,7 +115,7 @@ export default () => (
         </div>
       </div>
     </section> */}
-    <section id="testimonials" className="py-20 lg:py-40 bg-bg-lighter">
+    <section id="Testimonials" className="py-20 lg:py-40 bg-bg-lighter">
       <div className="container mx-auto">
         <LabelText className="mb-8 text-gray-600 text-center">What customers are saying</LabelText>
         <div className="flex flex-col md:flex-row md:-mx-3">
@@ -126,10 +127,12 @@ export default () => (
         </div>
       </div>
     </section>
-    <section className="container mx-auto my-20 py-24 bg-bg-darker rounded-lg text-center">
-      <h3 className="text-5xl font-semibold">Wanna buy some eggs?</h3>
+    <section
+      id="Purchase"
+      className="container mx-auto my-20 py-24 bg-bg-darker rounded-lg text-center">
+      <h3 className="text-5xl font-semibold">Wanna buy some shit?</h3>
       <p className="mt-8 text-xl font-light">
-        Get in touch.  shoot us an email for a quote and shit, or whatever.
+        Get in touch. Shoot us an email for a quote and shit, or whatever.
       </p>
       <p className="mt-8">
         <Button size="xl">Email</Button>
